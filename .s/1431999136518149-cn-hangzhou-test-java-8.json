@@ -1,0 +1,40 @@
+{
+  "statefulConfig": {
+    "serviceName": "test-java-8",
+    "description": "hello world by serverless devs",
+    "role": "",
+    "logConfig": {
+      "project": "",
+      "logstore": "",
+      "enableRequestMetrics": false,
+      "enableInstanceMetrics": false,
+      "logBeginRule": "None"
+    },
+    "serviceId": "ba6d2788-82c0-48bc-a5ef-49a5ef9dbc54",
+    "createdTime": "2022-10-23T06:05:00Z",
+    "lastModifiedTime": "2022-10-23T06:05:00Z",
+    "vpcConfig": {
+      "vpcId": "",
+      "vSwitchIds": [],
+      "securityGroupId": "",
+      "role": "",
+      "anytunnelViaENI": null
+    },
+    "internetAccess": true,
+    "nasConfig": {
+      "userId": -1,
+      "groupId": -1,
+      "mountPoints": []
+    },
+    "ossMountConfig": {
+      "mountPoints": []
+    },
+    "vendorConfig": null,
+    "tracingConfig": {
+      "type": null,
+      "params": null,
+      "jaegerConfig": null
+    },
+    "name": "test-java-8"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "statefulConfig": {
+    "functionId": "92080be2-69bb-4e64-a1d6-db71b5ea1af5",
+    "functionName": "test-java-8",
+    "description": "hello world by serverless devs",
+    "runtime": "java8",
+    "handler": "example.App::handleRequest",
+    "timeout": 60,
+    "initializer": "example.App::initialize",
+    "initializationTimeout": 60,
+    "codeSize": 269955,
+    "codeChecksum": "8098972944428313071",
+    "memorySize": 128,
+    "gpuMemorySize": null,
+    "environmentVariables": {},
+    "createdTime": "2022-10-23T06:06:00Z",
+    "lastModifiedTime": "2022-10-23T06:06:00Z",
+    "instanceConcurrency": 1,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": null,
+    "caPort": null,
+    "instanceType": "e1",
+    "layers": null,
+    "layersArnV2": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": null,
+    "customHealthCheckConfig": null,
+    "name": "test-java-8"
+  }
+}
